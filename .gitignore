@@ -2,6 +2,7 @@
 *.csv
 *.pyc
 *.tfrecord
+*.zip
 validation/
 train/
 test/

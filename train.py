@@ -10,7 +10,7 @@ def train(train_relative_path, val_relative_path, FOLDER):
     n_itr = 10
     n_eph = 100
     label_num = 3862
-    _, x1_val, x2_val, y_val = next(tf_itr(val_relative_path, 10000))
+    _, x1_val, x2_val, y_val = next(tf_itr(val_relative_path, 10000, label_num=label_num, FOLDER=FOLDER))
     model = build_model()
     cnt = 0
     for e in range(n_eph):

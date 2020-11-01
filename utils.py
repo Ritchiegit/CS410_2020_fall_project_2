@@ -42,7 +42,7 @@ def ap_at_10(data):
             ap += poscount / (i + 1) * delta_recall
     return ap
 
-
+# MAP
 # restrict on @K is in ap_at_n
 def MAP_at_10(pred, actual):
     lst = zip(list(pred), list(actual))
