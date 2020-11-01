@@ -1,0 +1,8 @@
+*.h5
+*.csv
+*.pyc
+*.tfrecord
+validation/
+train/
+test/
+.idea/
