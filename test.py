@@ -40,7 +40,7 @@ def predict(test_relative_path, submission_path, FOLDER):
 
 
 if __name__ == '__main__':
-    test_relative_path = "test"
+    test_relative_path = ""  # "test"
     submission_path = ''
-    FOLDER = ''
+    FOLDER = 'train_validation'
     predict(test_relative_path, submission_path, FOLDER)
